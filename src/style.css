@@ -308,6 +308,13 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+
+}
+.myAvtar img {
+  border-radius: 50%;  /* This makes the image circular */
+  width: 100%;        /* Makes image fill its container */
+  height: 100%;       /* Makes image fill its container */
+  object-fit: cover;  /* Ensures image maintains aspect ratio while filling space */
 }
 
 @media (max-width: 767px) {
